@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/data") //membuat request mapping untuk menghubungkan controller dengan html
+@RequestMapping("/uas") //membuat request mapping untuk menghubungkan controller dengan html
 public class controller {
     
     Uas raes = new Uas();
